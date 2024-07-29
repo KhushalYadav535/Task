@@ -1,0 +1,67 @@
+/* Ensure the form takes up full width and centers on the page */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style each label and input for a consistent look */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding is included in width */
+  }
+  
+  /* Style for different types of input */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    font-size: 1rem;
+  }
+  
+  /* Style for the submit button */
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Button hover and active states */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:active {
+    background-color: #004494;
+  }
+  
+  /* Style for error messages */
+  .error {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 5px;
+  }
+  
+  /* Ensure spacing and alignment */
+  form > label {
+    margin-bottom: 15px;
+  }
+  

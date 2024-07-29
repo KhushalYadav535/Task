@@ -1,0 +1,51 @@
+/* App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+.form label {
+  margin-bottom: 10px;
+}
+
+.form input {
+  padding: 8px;
+  margin-top: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form button {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #45a049;
+}
+
+.employee-list {
+  margin-top: 20px;
+}
+
+.employee-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.employee-list li {
+  margin: 5px 0;
+}
